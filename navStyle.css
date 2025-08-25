@@ -1,0 +1,135 @@
+* {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bodycontainer {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+    --text-color: #65758B;
+    --blue: #0081fa
+}
+
+.m-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-6 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.toggle_btn {
+    display: none;
+}
+
+.closesvg {
+    display: none;
+}
+
+.logoimage {
+    height: 5.5rem;
+    width: 8.5rem;
+}
+
+.elementcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navlink {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.navlink:hover {
+    color: #0081fa;
+}
+
+.homelink {
+    color: var(--blue);
+}
+
+.navsvg {
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    padding: 0.65rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navsvg:hover {
+    color: white;
+    background-color: rgba(0, 179, 164, 255);
+}
+
+.navbutton {
+    height: 2.5rem;
+    width: 6.7rem;
+    border-radius: 0.6rem;
+    background-color: rgba(0, 129, 250, 255);
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.darkmode_btn {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown {
+
+    background-color: white;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    display: none;
+
+}
+
+.dropdown>div {
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+}
+
+.togglenavlink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.dropdownbtn {
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    border-radius: 0.6rem;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: white;
+    background-color: var(--blue);
+}
+
+.dropdownbtncontainer {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
