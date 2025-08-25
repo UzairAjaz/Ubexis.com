@@ -1,0 +1,75 @@
+@media (max-width : 1030px) {
+    
+    .toggle_btn {
+        display: block;
+    }
+    .herosection{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbutton,
+    .items {
+        display: none;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .articlecontainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .valuescontainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width : 768px) {
+    .bodycontainer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .keypointlist {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .valuescontainer {
+        grid-template-columns: 1fr;
+    }
+
+    .consultpoints {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .keypointlist {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .footercontainer {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .linkcontainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+
+}
