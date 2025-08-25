@@ -1,0 +1,511 @@
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+    --text-color: #65758B;
+    --blue: #0081fa;
+}
+
+.gradientcolor {
+    background: linear-gradient(90deg, rgb(99, 166, 239) 45%, rgba(142, 83, 237, 1) 50%, rgb(217, 61, 237) 54%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.innovationdiv {
+    text-align: center;
+    font-size: .875rem;
+}
+
+.innovationdiv>svg {
+    color: var(--blue);
+}
+
+.headContent {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    font-weight: 700;
+    font-family: var(--font-poppins);
+    text-align: center;
+    margin: 1rem;
+}
+
+.headContent>span {
+    font-weight: 700;
+    font-family: var(--font-poppins);
+    text-align: center;
+}
+
+.contentdesc {
+    color: var(--text-color);
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.25rem;
+    max-width: 44rem;
+    margin: 1.5rem auto 2rem auto;
+    line-height: 1.7rem;
+}
+
+.consultationButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.consultationButton>button {
+    height: 3rem;
+    width: 19rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(150deg, rgb(99, 166, 239) 25%, rgba(142, 83, 237, 1) 51%, rgb(217, 61, 237) 75%);
+    font-size: 1.15rem;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.keypointlist {
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 2rem;
+}
+
+.pointcontainer {
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.keypointlistItems {
+    color: var(--text-color);
+}
+
+.keypointdiv {
+    font-size: xx-large;
+    font-family: var(--font-poppins);
+    font-weight: bolder;
+}
+
+/* section2 */
+.cardsection {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.servicediv {
+    text-align: center;
+    color: var(--blue);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.servicediv>svg {
+    margin-right: 0.4rem;
+
+}
+
+.tech-heading {
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    font-family: var(--font-poppins);
+    margin-bottom: 1.5rem;
+}
+
+.techspan {
+    background: linear-gradient(90deg, rgb(99, 166, 239) 25%, rgba(142, 83, 237, 1) 61%, rgb(217, 61, 237) 94%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.techcontentdiv {
+    color: rgba(122, 135, 155, 255);
+    max-width: 44rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.cardsdiv {
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.cardsvg>h3 {
+    font-family: var(--font-poppins);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-left: 0.5rem;
+}
+
+.cardsdiv>p {
+    color: rgba(122, 135, 155, 255);
+    font-size: 0.9rem;
+    line-height: 1.625;
+    font-weight: 500;
+}
+
+.cardsvg {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.svg {
+    padding: 0.5rem;
+}
+
+.capsulecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.cardsCapsule {
+    background-color: rgba(228, 205, 228, 255);
+    border-radius: 15px;
+    line-height: 1rem;
+    display: flex;
+    padding: 0.125rem 0.625rem 0.125rem 0.625rem;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.linkcontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.Learnmorelink :hover {
+    color: white;
+}
+
+.Learnmorelink>a {
+    color: black;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.transformdiv {
+    color: rgba(122, 135, 155, 255);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.servicebtncontainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.servicebtncontainer>button {
+    height: 2.75rem;
+    width: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    background: linear-gradient(150deg, rgb(99, 166, 239) 15%, rgba(142, 83, 237, 1) 41%, rgb(217, 61, 237) 84%);
+}
+
+.aboutsection {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.introcontainer {
+    margin-bottom: 4rem;
+}
+
+.about {
+    text-align: center;
+    color: var(--blue);
+    padding: 0.5rem 1rem 0rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.AIdiv {
+    font-size: 3rem;
+    font-family: var(--font-poppins);
+    font-weight: 700;
+    text-align: center;
+}
+
+.AIdiv>span {
+    background: linear-gradient(90deg, rgb(99, 166, 239) 25%, rgba(142, 83, 237, 1) 61%, rgb(217, 61, 237) 94%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.AIcontent {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.articlecontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.articlecontent>h3 {
+    font-family: var(--font-poppins);
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+}
+
+.paradiv {
+    margin-top: 1.5rem;
+    color: var(--text-color);
+}
+
+.articleItemContainer {
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    padding: 2rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.articleItems {
+    text-align: center;
+}
+
+.articlecontaineritems {
+    color: var(--text-color);
+    font-size: 0.875rem;
+}
+
+.articlegradientitems {
+    background: linear-gradient(150deg, rgb(99, 166, 239) 25%, rgba(142, 83, 237, 1) 59%, rgb(217, 61, 237) 90px);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xx-large;
+    font-family: var(--font-poppins);
+    font-weight: bolder;
+    font-size: 1.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.corevalues>h3 {
+    text-align: center;
+    font-family: var(--font-poppins);
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin-bottom: 3rem;
+}
+
+.valuescontainerItem {
+    border: 1px solid rgb(233, 233, 233);
+    padding: 2rem;
+    border-radius: 0.7rem;
+    text-align: center;
+}
+
+.valuescontainerItem>svg {
+    color: var(--blue);
+    margin-bottom: 1rem;
+}
+
+.valuescontainerItem>h4 {
+    margin-bottom: 0.75rem;
+    font-family: var(--font-poppins);
+    font-weight: 600;
+}
+
+.valuescontainerItem>p {
+    color: var(--text-color);
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+}
+
+.valuescontainerItem:hover {
+    border: 1px solid black;
+}
+
+.valuescontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+
+.valuesListItem:hover {
+    border: 1px solid black;
+}
+
+.getstarted {
+    text-align: center;
+    margin-top: 16rem;
+    color: var(--blue);
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+}
+
+.future {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2.25rem;
+}
+
+.futurecontentcontainer {
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.futureheading {
+    font-weight: 700;
+    font-family: var(--font-poppins);
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+
+.futureheading>span {
+    background: linear-gradient(90deg, rgb(99, 166, 239) 25%, rgba(142, 83, 237, 1) 61%, rgb(217, 61, 237) 94%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.getstartedcontent {
+    color: var(--text-color);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    max-width: 42rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.shedulebutton {
+    display: inline-flex;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(150deg, rgb(99, 166, 239) 25%, rgba(142, 83, 237, 1) 61%, rgb(217, 61, 237) 94%);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    height: 2.5rem;
+    padding: 1rem 2rem 2.5rem 2rem;
+    font-weight: 500;
+
+
+}
+
+.conversationbutton {
+    border: var(--text-color);
+    padding: 1rem 2rem 2.5rem 2rem;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    border: 1px solid rgb(210, 210, 210);
+    font-weight: 500;
+    height: 2.75rem;
+}
+
+.conversationbutton:hover {
+    background-color: rgb(128, 212, 212);
+    color: white;
+}
+
+.consultdiv {
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+.consultdiv>h3 {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-family: var(--font-poppins);
+    margin-bottom: 1rem;
+}
+
+.consultpoints {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.marker {
+    border-radius: 9999px;
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: var(--blue);
+}
+
+.bulletpoints {
+    display: flex;
+    align-items: center;
+}
+
+.bulletpoints>span {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-left: 0.5rem;
+}
+
+.ProTip {
+    color: var(--text-color);
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+}
